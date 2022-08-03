@@ -1,0 +1,11 @@
+console.log("Concat :");
+var text=["food","sea","fish","boat"];
+var text1=["water","people","fisher","animals"];
+var result= text.concat(text1);
+console.log("Original Array: ",text);
+var length = text.length;
+console.log("Length of orginal Array: ", length);
+console.log("Method: text.concat(text) :", "Used to join two or more string");
+console.log("change in  Array: ", result);
+var LengthafterConcat= result.length;
+console.log("Change in Length of orginal Array after Concat():", LengthafterConcat);

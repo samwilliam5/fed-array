@@ -1,0 +1,10 @@
+console.log("Valueof :");
+var text=["food","sea","fish","boat"];
+console.log("Original Array: ",text);
+var length = text.length;
+console.log("Length of orginal Array: ", length);
+console.log("Method: text.Valueof() :", "Does not change the orginal value of array");
+text.valueOf();
+console.log ("Change in array: ",text);
+var Lengthaftervalueof= text.length;
+console.log("Change in Length of orginal Array after valueof():", Lengthaftervalueof);

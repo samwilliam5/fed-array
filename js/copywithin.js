@@ -1,0 +1,10 @@
+console.log("CopyWithin :");
+var text=["food","sea","fish","boat"];
+console.log("Original Array: ",text);
+var length = text.length;
+console.log("Length of orginal Array: ", length);
+console.log("Method: text.fill(food) :", "Used to fill all element with specific value we give");
+text.copyWithin(2,0);
+console.log ("Change in array: ",text);
+var Lengthaftercopywithin= text.length;
+console.log("Change in Length of orginal Array after fill(food):", Lengthaftercopywithin);

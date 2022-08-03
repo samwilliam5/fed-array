@@ -1,0 +1,10 @@
+console.log("Pop:");
+var Orginalnum = [1,2,3,4,5];
+console.log("Original Array: ",Orginalnum);
+var length = Orginalnum.length;
+console.log("Length of orginal Array: ", length);
+Orginalnum.pop();
+console.log("Method: Orginalnum.pop():", "Remove last array element of an array");
+console.log("change in  Array: ", Orginalnum);
+var LengthafterPop= Orginalnum.length;
+console.log("Change in Length of orginal Array after pop():", LengthafterPop);
